@@ -17,6 +17,7 @@ Now, by curl calls or REST calls, you can create/delete/query a VM, and also att
 Creating a VM:
 
 -> http://localhost:5000/vm/create?name=test_vm&instance_type=type
+
 Quering a VM:
 
 -> http://localhost:5000/vm/query?vmid=vmid
